@@ -1,0 +1,13 @@
+<h1>Hi <%= current_user.email %>!</h1>
+<%= link_to('Logout', destroy_user_session_path, :class => 'btn') %>
+<% if (current_user.has_auth? 'pgb') %>
+	<p><a class="btn" href="/pgb_disconnect">Disconnect pgb</a></p>
+	<p><table>
+		<tr><th>Apps</th></tr>
+	<% pgb_apps.each { |a| %>
+		<tr><td><%= a["title"] %></td></tr>
+	<% } %>
+	</table></p>
+<% else %>
+	<p><a class="btn" href="<%= pgb_connect_link %>">Connect my account to PhoneGap Build</a></p>
+<% end %>
