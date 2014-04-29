@@ -6,6 +6,14 @@ This here rails app is completely useless, aside from showing you how to connect
 Setup
 -------------------------------------------
 
-Open `app/controllers/welcome_controller.rb` and change the CLIENT_ID and CLIENT_SECRET you obtained when you [registered your app on Build](https://build.phonegap.com/people/edit).
+I used Ruby 2 and Rails 4. Its cutting edge.
 
-Run `rails s`, and go to http://localhost:3000 in Chrome.
+Open `app/controllers/welcome_controller.rb` and change these values that you obtained when you [registered your app on Build](https://build.phonegap.com/people/edit):
+- CLIENT_ID
+- CLIENT_SECRET
+
+Run 
+    
+    rails s
+ 
+then go to [http://localhost:3000](http://localhost:3000) in Chrome.
