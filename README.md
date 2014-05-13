@@ -8,6 +8,8 @@ Setup
 
 I used Ruby 2 and Rails 4. Its cutting edge.
 
+Register your app on PhoneGap Build. Your main application url will be http://localhost:3000 and your callback url should be http://localhost:3000/pgb_callback.
+
 Open `app/controllers/welcome_controller.rb` and change these values that you obtained when you [registered your app on Build](https://build.phonegap.com/people/edit):
 - CLIENT_ID
 - CLIENT_SECRET
