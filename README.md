@@ -15,6 +15,7 @@ Open `app/controllers/welcome_controller.rb` and change these values that you ob
 - CLIENT_SECRET
 
 Run 
+
     bundle install
     rails s
  
