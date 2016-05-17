@@ -15,7 +15,7 @@ Open `app/controllers/welcome_controller.rb` and change these values that you ob
 - CLIENT_SECRET
 
 Run 
-    
+    bundle install
     rails s
  
 then go to [http://localhost:3000](http://localhost:3000) in Chrome.
