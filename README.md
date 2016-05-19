@@ -1,12 +1,14 @@
 PhoneGap Build Oauth Client Demo
 ------------------------------------------
 
-This here rails app is completely useless, aside from showing you how to connect to PhoneGap Build using the Oauth flow. Its a more secure way of consuming our API, and in the future will allow you to specify scopes for your API tokens, and maybe even user metrics at some point.
+This rails app semos how to connect to PhoneGap Build using the Oauth flow. Its a more secure way of consuming our API than basic token auth.
 
 Setup
 -------------------------------------------
 
-I used Ruby 2 and Rails 4. Its cutting edge.
+Prerequisites:
+- ruby 2
+- rails 4
 
 Register your app on PhoneGap Build. Enter the following for your app details:
 - Main application url: `http://localhost:3000`
